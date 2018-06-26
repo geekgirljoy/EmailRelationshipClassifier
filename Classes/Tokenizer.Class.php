@@ -35,13 +35,13 @@ class Tokenizer {
 		foreach($matches as $key=>&$tokenset){
 			// $tokenset[2] == ' 
 			// $tokenset[3] == - 
-			// Handle apostrophy and hyphen word merges
+			// Handle apostrophe and hyphen word merges
 			// i.e. pre-game = PREGAME
 			// & don't = DONT
 			if(!empty($tokenset[2]) || !empty($tokenset[3])){
 
 				$n = 1;
-				$tokenset[0] = str_replace(array('\'', '-'), '', $tokenset[0]); // remove apostrophy and hyphen
+				$tokenset[0] = str_replace(array('\'', '-'), '', $tokenset[0]); // remove apostrophe and hyphen
 				$next = $matches[$key + $n][0];
 				$tokenset[0] .= $next; // merge with next captured token
 				unset($matches[$key + $n]); // unset next token
