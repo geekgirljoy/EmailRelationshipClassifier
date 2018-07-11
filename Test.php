@@ -38,7 +38,6 @@ $myDatabaseManager = new DatabaseManager();
 // Configure FileManager Objects
 $myEmailFileManager->Scan('DataCorpus/TestData');
 $myJSONFileManager->Scan('DataCorpus/TestDataClassifications');
-//$myResultsFileManager->Scan('DataCorpus/TestResults');
 $number_of_testing_files = $myEmailFileManager->NumberOfFiles();
 $number_of_JSON_files = $myJSONFileManager->NumberOfFiles();
 
@@ -60,7 +59,7 @@ if(($number_of_testing_files != $number_of_JSON_files)
 else{
   // Loop Through Files
   for($current_file = 0; $current_file < $number_of_testing_files; $current_file++){
-  
+ 
   
   $report_data = '';
   
@@ -188,7 +187,7 @@ else{
   
 
   /////////////////////////
-  // Report - Recipient
+  // Report - Recipients
   /////////////////////////
   
   $sum = array_sum($weights['Recipient']); // sum the total of Sender weights
