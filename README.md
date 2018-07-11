@@ -10,3 +10,8 @@ A simple way you can accomplish this type of goal is by using a “Bag of Words 
 
 [Database](https://geekgirljoy.wordpress.com/2018/06/27/email-relationship-classifier-database/)
 
+[Classifying Emails](https://geekgirljoy.wordpress.com/2018/06/28/email-relationship-classifier-classifying-emails/)
+
+[Training](https://geekgirljoy.wordpress.com/2018/06/29/email-relationship-classifier-training-the-bot/)
+
+Testing - coming soon!
