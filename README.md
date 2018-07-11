@@ -14,4 +14,4 @@ A simple way you can accomplish this type of goal is by using a “Bag of Words 
 
 [Training](https://geekgirljoy.wordpress.com/2018/06/29/email-relationship-classifier-training-the-bot/)
 
-Testing - coming soon!
+[Testing](https://geekgirljoy.wordpress.com/2018/07/11/email-relationship-classifier-testing-the-bot/)
